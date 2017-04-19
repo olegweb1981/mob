@@ -1,0 +1,87 @@
+html {
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    -webkit-box-sizing: inherit;
+        -moz-box-sizing: inherit;
+            box-sizing: inherit;
+}
+
+@font-face {
+    font-family: MuseoSansRounded-300-webfont;
+    src: url(fonts/museosansrounded_300/MuseoSansRounded-300-webfont.ttf);
+}
+@font-face {
+    font-family: MuseoSansRounded-100-webfont;
+    src: url(fonts/museosansrounded_100/MuseoSansRounded-100-webfont.ttf);
+}
+@font-face {
+    font-family: MuseoSansRounded-700-webfont;
+    src: url(fonts/museosansrounded_700/MuseoSansRounded-700-webfont.ttf);
+}
+@font-face {
+    font-family: MuseoSansRounded-500-webfont;
+    src: url(fonts/museosansrounded_500/MuseoSansRounded-500-webfont.ttf);
+}
+@font-face {
+    font-family: MuseoSansRounded-1000-webfont;
+    src: url(fonts/museosansrounded_1000/MuseoSansRounded-1000-webfont.ttf);
+}
+
+body {
+    font-family: MuseoSansRounded-500-webfont;
+    background-color: #c0c0c0;
+    width: 640px;
+    margin: 0 auto;
+}
+.facts {
+    background-color: #f7f7f7;
+    padding: 15px;
+}
+.f_signal {
+    float: left;
+}
+.f_time {
+    display: inline-block;
+    padding-left: 165px;
+    font-size: 20px;
+}
+.f_battery {
+    background-image: url(img/battery.png);
+    background-repeat: no-repeat;
+    background-position: right center;
+    font-size: 20px;
+    padding-right: 55px;
+    float: right;
+}
+.logout {
+    background-color: #e3e3e5;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 10px;
+    position: relative;
+    text-align: center;
+}
+.entry {
+    background-image: url(img/entry.png);
+    background-repeat: no-repeat;
+    background-position: left center;
+    font-size: 32px;
+    padding-left: 30px;
+}
+.update {
+    position: absolute;
+    right: 20px;
+    top: 13px;
+}
+.update, .entry {
+    display: inline-block;
+}
+.logout img {
+    
+}
